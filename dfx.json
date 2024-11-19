@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "notice_backend": {
+      "build": "npx azle notice_backend",
+      "candid": "src/notice_backend/notice_backend.did",
+      "gzip": true,
+      "main": "src/notice_backend/src/index.ts",
+      "tech_stack": {
+        "cdk": {
+          "azle": {}
+        },
+        "language": {
+          "javascript": {},
+          "typescript": {}
+        }
+      },
+      "type": "custom",
+      "wasm": ".azle/notice_backend/notice_backend.wasm"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
